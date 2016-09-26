@@ -27,6 +27,8 @@ var gameState = (function() {
     }
 
     function setUpGame() {
+        game.stage.backgroundColor = "#d28ecc";
+
         cursors = game.input.keyboard.createCursorKeys();
 
         player = game.add.group();
